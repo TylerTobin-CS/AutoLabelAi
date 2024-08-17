@@ -1,0 +1,6 @@
+
+class startProgram{
+public:
+    startProgram();
+
+};

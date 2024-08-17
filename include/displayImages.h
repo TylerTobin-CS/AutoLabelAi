@@ -3,6 +3,8 @@ class DisplayImages{
 public:
     DisplayImages();
 
-    void openDirectory();
+    bool validateDirectory(std::string directoryEntered);
+
+    bool validateImagesExist(std::string validDirectory);
 
 };

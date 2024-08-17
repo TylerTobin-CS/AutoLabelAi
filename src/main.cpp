@@ -1,11 +1,11 @@
 // Main file when program starts
 
-#include "../include/displayImages.h"
+#include "../include/startProgram.h"
 
 
 
 int main() {
-    DisplayImages display;
-    display.openDirectory();
+    startProgram startProgram;
+
     return 0;
 }
